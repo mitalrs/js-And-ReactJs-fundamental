@@ -1,0 +1,4 @@
+idea for practice project 
+ use a remove class when u click on button
+ //remove class
+ div.classList.remove("second")

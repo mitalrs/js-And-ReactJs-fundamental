@@ -1,3 +1,10 @@
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* CSS */
 .button-83 {
     appearance: button;
@@ -39,6 +46,11 @@
 
   /* CSS */
 .button-52 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 60px;
   font-size: 16px;
   font-weight: 200;
   letter-spacing: 1px;

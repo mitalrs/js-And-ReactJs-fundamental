@@ -45,3 +45,39 @@ const shoppingBasket = [...shoppingList,"iteam1","item2"]
 console.log(shoppingBasket+"//spread operator")
 
 
+//arrow function with default value
+let foodbuy = (food = "somthing") =>{
+    console.log(`I'm going to buy ${food} from the grocery shop`)
+}
+
+foodbuy("milk")
+
+
+//function with default value
+function foodShopping( food = "something") {
+    console.log(`I'm going to buy ${food} from the grocery shop`);
+}
+
+foodShopping();
+
+
+//includes() function
+const listIngredients =  [ "flour", "sugar", "eggs", "butter" ];
+if(listIngredients.includes("chocolate")){
+    console.log("We are going to make a chocolate cake")
+}
+else{
+   console.log( "We can't make a chocolate cake because we are missing the ingredient chocolate")
+}
+
+
+
+//const data type it's fixed but the value of array and object it's changeble in the this
+
+
+//padStart() & padEnd()
+
+let example = 'YouTube.com/CodingTutorials360';
+
+console.log(example.padStart(100));
+console.log(example.padEnd(1));

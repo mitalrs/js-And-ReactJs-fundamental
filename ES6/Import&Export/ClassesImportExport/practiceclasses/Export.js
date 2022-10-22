@@ -36,3 +36,6 @@ export class cat extends animal{
         console.log( sound )
     }
 }
+
+
+//both classes are tightly coupled

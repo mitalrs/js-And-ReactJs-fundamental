@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+.useRef{
+  display:  flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2px;
+  margin: 10px;
+  width: 50%;
+  height: 30%;
+  align-items: center;
+}
